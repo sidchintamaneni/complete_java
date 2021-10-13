@@ -1,0 +1,7 @@
+
+public class A{
+	public String gate(){
+		return "this is class A";
+	}
+
+}

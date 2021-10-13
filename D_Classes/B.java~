@@ -1,0 +1,10 @@
+public class B extends A{
+	
+	public String gate_B(){
+		return "limited to gate B";
+	}
+	
+	public String gate(){
+		return "this B";
+	}
+}
