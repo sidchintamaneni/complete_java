@@ -1,0 +1,22 @@
+class GenExp<T>{
+	
+	T add(T a, T b){
+		if(T instanceof Double){
+			return a.doubleValue()+b.doubleValue();
+		}else{
+			return a.integerValue()+b.integerValue();
+		}
+	}
+	
+	public static void main(String args[]){
+
+		GenExp<Integer> obj_int = new GenExp<Integer>();
+		
+		System.out.println(obj_int.add(1,2));
+
+		GenExp<Double> obj_double = new GenExp<Double>();
+
+		System.out.println(obj_double.add(1.2,1.4));
+	}
+}
+
